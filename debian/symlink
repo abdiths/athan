@@ -1,0 +1,2 @@
+# In debian/ directory, create symlink for executable:
+ln -s ../src/main.py debian/athan/usr/bin/athan

@@ -1,0 +1,13 @@
+Source: athan
+Section: utils
+Priority: optional
+Maintainer: Abdirahman Ibrahim <abdiths@gmail.com>
+Build-Depends: debhelper (>= 12), python3-all
+Standards-Version: 4.5.0
+Homepage: https://ibrahimabdi.com
+
+Package: athan
+Architecture: amd64
+Depends: ${misc:Depends}, ${python3:Depends}, python3-gi
+Description: A tool to display prayer times for Muslims
+ A simple application for displaying prayer times based on user input.
